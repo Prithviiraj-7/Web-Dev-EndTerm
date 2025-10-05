@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prithvii - Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Verdana', sans-serif;
+      background: linear-gradient(160deg, #e0f7fa, #fce4ec);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    nav {
+      background: #880e4f;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      background: #880e4f;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      margin-top: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    header img:hover {
+      transform: scale(1.2);
+    }
+
+    header h1 {
+      margin-top: 10px;
+      font-size: 28px;
+    }
+
+    header p {
+      font-style: italic;
+      max-width: 500px;
+      margin: 10px auto 0 auto;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #880e4f;
+      margin-bottom: 10px;
+    }
+
+    .skillss {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      width: 48%;
+      background: #fce4ec;
+      padding: 10px;
+      border-radius: 8px;
+      margin: 1%;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      cursor: default;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      background-color: #f8bbd0;
+    }
+
+    a {
+      color: #880e4f;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #880e4f;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    @media (max-width: 700px) {
+      .card {
+        width: 100%;
+        margin: 5px 0;
+      }
+      header img {
+        width: 100px;
+        height: 100px;
+      }
+      header h1 {
+        font-size: 24px;
+      }
+      nav a {
+        display: block;
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <img src="https://wallpapers.com/images/hd/anonymous-profile-silhouette-b714qekh29tu1anb.jpg" alt="Prithvii - Profile Photo">
+    <h1>Prithviraj S</h1>
+    <p>Tech Enthusiast | Coder | Always Learning</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I love coding, gaming, and exploring new technologies. My goal is to grow academically and professionally while staying creative.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skillss">
+        <div class="card">HTML & CSS</div>
+        <div class="card">JavaScript</div>
+        <div class="card">Java</div>
+        <div class="card">Problem Solving</div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="skillss">
+        <div class="card">
+          <a href="https://github.com/Prithviiraj-7/basic-Calculator" target="_blank" rel="noopener noreferrer">
+            Calculator Project
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://github.com/Prithviiraj-7/Movie-myFav" target="_blank" rel="noopener noreferrer">
+            Movies List Project
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="skillss">
+        <div class="card">Class X - Notre Dame of Holy Cross</div>
+        <div class="card">Class XII - Notre Dame of Holy Cross</div>
+        <div class="card">Scaler School of Technology</div>
+        <div class="card">BITS Pilani</div>
+      </div>
+    </section>
+
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <div class="skillss">
+        <div class="card">Cricket</div>
+        <div class="card">Football</div>
+        <div class="card">Karate</div>
+        <div class="card">Cooking</div>
+        <div class="card">Art</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:prithviipj7@gmail.com">prithviipj7@gmail.com</a></p>
+      <p>Phone: <a href="tel:9361111051">9361111051</a></p>
+      <p>GitHub: <a href="https://github.com/Prithviiraj-7" target="_blank" rel="noopener noreferrer">https://github.com/Prithviiraj-7</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Prithviraj S. All Rights Reserved.
+  </footer>
+</body>
+</html>
